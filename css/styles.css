@@ -93,6 +93,40 @@ section {
 }
 /* ---Logo--- */
 
+/* ---socialmedia--- */
+.socialmedia__icon {
+
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin: auto;
+}
+.socialmedia__icon-list {
+    display: flex;     
+}
+.socialmedia__icon-list :not(:last-child) {
+    margin-right: 10px;
+}
+.socialmedia__link{
+    display: block;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    color: var(--icon-color);
+    border-radius: 50%;
+    transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
+    
+ }
+ .socialmedia__link:focus,
+ .socialmedia__link:hover {
+     background: var(--accent-color);
+     color: var(--while-color);
+   
+ }
+ 
+
+/* ---socialmedia--- */
 
 
 /*--------------Header Section--------------------*/
@@ -125,7 +159,7 @@ section {
     display: flex;
 }
 
-.menu__item:not(:last-child) {
+.menu__list :not(:last-child) {
     margin-right: 50px;
 }
 .menu__link {
@@ -162,7 +196,7 @@ section {
     display: flex;
 }
 
-.contacts__item:not(:last-child) {
+.contacts__list :not(:last-child) {
     margin-right: 30px;
 
 }
@@ -313,12 +347,7 @@ section {
 .features__item:not(:last-child) {
     margin-right: 30px;
 }
-
-
-.features__item {
-    width: 270px;
-    
-}
+ 
 .features__icon-container {
     display: flex;
     justify-content: center;
@@ -352,11 +381,10 @@ section {
     display: flex;
 }
 .studio__item {
-    /* display: inline-block; */
     position: relative;
     width: 370px;
 } 
-.studio__item:not(:last-child) {
+.studio__list :not(:last-child) {
     margin-right: 30px;
 }
 
@@ -388,48 +416,42 @@ section {
 }
  
  /*--------Team Section-----------*/
-.team {
+.team__section {
     font-size: 16px;
     letter-spacing: 0.03em;
     background-color: var(--backgroung-team-color);
     text-align: center;
-
-
  }
- .members {
+ .team__list {
      display: flex;
  }
- .members:first-child {
-    margin-left: 0;
-}
-.team-title {
-    color: var(--header-color);
+
+.team__title {
+    color: var(--first-color);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
-   
- 
 }
-.member {
-    margin-right: 30px;
+.team__item {
     background: var(--while-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
-.member-item {
-    width: 270px;
+.team__item:not(:last-child) {
+    margin-right: 30px;
+}    
+.team__item-container {
     padding: 30px 32px;
 } 
 
-.member p{
+.team__position {
     margin-bottom: 15px;
 }
-.name {
-    color: var(--header-color);
+.team__name {
+    color: var(--first-color);
     font-weight: 500;
     text-align: center;
     margin-bottom: 1em;
@@ -437,23 +459,23 @@ section {
 
 
 /* -------Clients Section----- */
-.clients-title {
-    color: var(--header-color);
+.clients__title {
+    color: var(--first-color);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
 }
-.clients-list  {
+.clients__list  {
     display: inline-flex;
 } 
-.clients-list :not(:last-child) {
+.clients__list :not(:last-child) {
    margin-right: 30px;
 }   
     
 
 
-.clients-list a{
+.clients__link{
     display: flex;
     justify-content: center;
  
@@ -465,48 +487,46 @@ section {
     transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
 
 }
-.clients-list a:hover,
-.clients-list a:focus {
-    border-color: var(--pretty-color);
-    color: var(--pretty-color);
+.clients__link:hover,
+.clients__link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 /*----------Company Logo----- */
 
-.group1 {
+
+.clients__icon {
+    fill: currentColor;
+    margin: auto; 
+}
+.clients__icon--group1 {
     width: 41px;
     height: 46.7px;
-    fill: currentColor;
-    margin: auto;
+
 }
-.group2 {
+.clients__icon--group2 {
     width: 40px;
     height: 52px;
-    fill: currentColor;
-    margin: auto;
 }
-.group3 {
+
+.clients__icon--group3 {
     width: 43.46px;
     height: 41.18px;
-    fill: currentColor;
-    margin: auto;
 }
-.group4 {
+
+.clients__icon--group4 {
     width: 84.44px;
     height: 40.62px;
-    fill: currentColor;
-    margin: auto;
 }
-.group5 {
+
+.clients__icon--group5 {
     width: 62.54px;
     height: 45.43px;
-    fill: currentColor;
-    margin: auto;
 }
-.group6 {
+
+.clients__icon--group6 {
     width: 93.79px;
     height: 43.93px;
-    fill: currentColor;
-    margin: auto;
 }
 
 /*------Footer Section-------*/   
