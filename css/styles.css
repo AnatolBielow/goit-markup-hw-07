@@ -101,10 +101,10 @@ section {
     fill: currentColor;
     margin: auto;
 }
-.socialmedia__icon-list {
+.socialmedia__list {
     display: flex;     
 }
-.socialmedia__icon-list :not(:last-child) {
+.socialmedia__list :not(:last-child) {
     margin-right: 10px;
 }
 .socialmedia__link{
@@ -538,29 +538,28 @@ section {
     line-height: 1.714;
     padding: 60px 0;
 }
-.footer .container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
 
-.footer-item {
-    margin-left: 0;
+.address__box {
+ 
     margin-right: 70px;
 }
 
-.footer li {
+.address__item {
     margin-bottom: 9px;
 }
-.footer .logo {
-    padding-top: 0;
+.logo--footer {
     margin-bottom: 20px;
 }
-address {
+.address {
     font-style: normal;
-    margin-left: 0;  
+    margin-right: 70px;  
 }
 
-.adress-link a{
+.address__link {
     color: var(--adress-link-color);
     transition: color 250ms var(--timing-function);
 }
@@ -569,21 +568,21 @@ address {
     margin-left: 0;
     margin-right: 93px;
 }
-.socialmedia p {
+.socialmedia__title {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
-.socialmedia a {
+.socialmedia__link--footer {
     color: inherit;
     background-color: var(--footer-icon);
     transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
 }
-.adress-link a:hover,
-.adress-link a:focus {
-    color: var(--pretty-color);
+.address__link:hover,
+.address__link:focus {
+    color: var(--accent-color);
 }
 
 
@@ -745,7 +744,7 @@ address {
 
 [data-modal-close]:hover,
 [data-modal-close]:focus {
-    color: var(--pretty-color);  
+    color: var(--accent-color);  
     cursor: pointer;
 }
 .form-tittle {
@@ -753,7 +752,7 @@ address {
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--header-color);
+    color: var(--first-color);
     margin-bottom: 12px;
 
 }
@@ -762,7 +761,7 @@ address {
     width: 100%;
     margin-bottom: 10px;
     font-size: 12px;
-    color: var(--text-color);
+    color: var(--second-color);
     
 }
 
@@ -777,7 +776,7 @@ address {
     border: 1px solid var(--modal-label-color);
     border-radius: 4px;
     
-    color: var(--text-color);
+    color: var(--second-color);
     padding-left: 42px;
     font-size: 14px;
     transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
@@ -806,7 +805,7 @@ address {
     padding: 12px 16px;
     font-size: 14px;
     letter-spacing: 0.01em;
-    color: var(--text-color);
+    color: var(--second-color);
     transition: border-color 250ms var(--timing-function), color 250ms var(--timing-function);
  }
 
@@ -814,14 +813,14 @@ address {
  .form-input:hover,
  .comment-input:hover,
  .comment-input:focus {
-     border: 1px solid var(--pretty-color);
+     border: 1px solid var(--accent-color);
      outline: 0;
-    color: var(--header-color);
+    color: var(--first-color);
  }
 
  .form-input:focus + .form-icon, 
  .form-input:hover  + .form-icon {
-     fill: var(--pretty-color);
+     fill: var(--accent-color);
  }
  .checkbox {
      display: inline-flex;
@@ -849,7 +848,7 @@ address {
     height: 15px;
     margin-left: 13px;
     margin-right: 7px;
-    border: 2px solid var(--header-color);
+    border: 2px solid var(--first-color);
     border-radius: 2px;
     align-items: center;
 
@@ -863,18 +862,18 @@ address {
     stroke: var(--while-color);
 }
 .checkbox:checked + .checkbox-policy {
-    background-color: var(--pretty-color);
-   border-color: var(--pretty-color);
-   color: var(--while-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--while-color);
 }
 .accept {
     font-size: 14px;
-    color: var(--pretty-color);
-    text-decoration: underline var(--pretty-color);
+    color: var(--accent-color);
+    text-decoration: underline var(--accent-color);
 }
 
 .submit {
-    background-color: var(--pretty-color);
+    background-color: var(--accent-color);
     color: var(--while-color);
     padding: 0 auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -924,7 +923,7 @@ address {
     padding: 10px 29px; 
     height: 50px;
     letter-spacing: 0.06em;
-    background-color: var(--pretty-color);
+    background-color: var(--accent-color);
     color: var(--while-color);
     fill: var(--while-color);
 }
