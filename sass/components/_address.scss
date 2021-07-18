@@ -1,0 +1,25 @@
+.address-box {
+ 
+    margin-right: 70px;
+}
+
+.address {
+
+    font-style: normal;
+
+&__item {
+    margin-bottom: 9px;
+}
+
+
+
+&__link {
+    color: $adress-link-color;
+    transition: color 250ms $timing-function;
+}
+&__link:hover,
+&__link:focus {
+    color: $accent-color;
+}
+
+}

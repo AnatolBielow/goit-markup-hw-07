@@ -1,0 +1,25 @@
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    padding: 6px 22px; 
+    letter-spacing: 0.03em;
+    color: var(--first-color);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;   
+    transition: background-color 250ms $timing-function,
+    color 250ms $timing-function,
+    box-shadow 250ms $timing-function; 
+
+&__sign-in {
+    padding: 10px 32px; 
+    background-color: $accent-color;
+    color: var(--while-color);
+ 
+}
+&__sign-in:hover,
+&__sign-in:focus {
+    background-color: $button-hover;
+}
+}
