@@ -12,8 +12,8 @@
 &__link {
     display: flex;
     padding: 32px 0;
-    color: $second-color;
-    transition: color 250ms $timing-function;
+    color: var(--second-color);
+    transition: color 250ms var(--timing-function);
 }
 
 &__icon {
@@ -25,9 +25,9 @@
 
 &__link:hover,
 &__link:focus{
-    color: $accent-color;   
+    color: var(--accent-color);   
 }
 }
 .active{
-   color: $accent-color;
+   color: var(--accent-color);
 }

@@ -5,7 +5,7 @@
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.714;
-    color: $second-color;    
+    color: var(--second-color);    
 }
 &__title {
     color: transparent;
@@ -23,7 +23,7 @@
     justify-content: center;
     width: 270px;
     height: 120px;
-    background-color: $backgroung-team-color;
+    background-color: var(--backgroung-team-color);
     margin-bottom: 30px;
 }
  
@@ -36,7 +36,7 @@
 &__name {
     font-size: 14px;
     font-weight: bold;
-    color: $first-color;
+    color: var(--first-color);
     text-transform: uppercase;
     margin-bottom: 10px;
 }

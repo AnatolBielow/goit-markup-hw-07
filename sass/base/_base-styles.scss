@@ -11,11 +11,11 @@ html {
 }
 
 body {
-    font-family: $main-font;
+    font-family: var(--main-font);
     text-decoration: none;
-    background-color: $body-color ;
-    color: $second-color;
-    background-color: $while-color;
+    background-color: var(--body-color) ;
+    color: var(--second-color);
+    background-color: var(--while-color);
     letter-spacing: 0.03em;
 }
 

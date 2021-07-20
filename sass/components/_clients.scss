@@ -1,7 +1,7 @@
 .clients {
 
 &__title {
-    color: $first-color;
+    color: var(--first-color);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -22,16 +22,16 @@
  
     width: 170px;
     height: 92px;
-    color: $icon-color;
-    border: 1px solid $icon-color;
+    color: var(--icon-color);
+    border: 1px solid var(--icon-color);
     border-radius: 4px;
-    transition: color 250ms $timing-function, border-color 250ms $timing-function;
+    transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
 
 }
 &__link:hover,
 &__link:focus {
-    border-color: $accent-color;
-    color: $accent-color;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 /*----------Company Logo----- */
 

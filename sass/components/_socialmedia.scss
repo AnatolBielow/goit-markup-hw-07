@@ -21,13 +21,13 @@
     justify-content: center;
     color: var(--icon-color);
     border-radius: 50%;
-    transition: fill 250ms $timing-function, background-color 250ms $timing-function;
+    transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
     
  }
  &__link:focus,
  &__link:hover {
-     background: $accent-color;
-     color: $while-color;
+     background: var(--accent-color);
+     color: var(--while-color);
    
  }
 }
