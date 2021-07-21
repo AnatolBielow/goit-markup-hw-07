@@ -1,9 +1,10 @@
 .button {
+    width: 200px;
+    height: 50px;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.875;
-    padding: 6px 22px; 
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     color: var(--first-color);
     border: 0;
     border-radius: 4px;
@@ -13,7 +14,6 @@
     box-shadow 250ms var(--timing-function); 
 
 &__sign-in {
-    padding: 10px 32px; 
     background-color: var(--accent-color);
     color: var(--while-color);
  
@@ -22,4 +22,6 @@
 &__sign-in:focus {
     background-color: var(--button-hover);
 }
+
+
 }

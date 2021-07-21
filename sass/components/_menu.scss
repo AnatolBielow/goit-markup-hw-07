@@ -34,13 +34,14 @@
 }
 
 &__link:hover,
-&__link:focus {
+&__link:focus,
+&__link--active {
     color: var(--accent-color);
 }
 
 &__link:hover::after,
 &__link:focus::after,
-.active::after {
+&__link--active::after {
     opacity: 1;
 }
 }

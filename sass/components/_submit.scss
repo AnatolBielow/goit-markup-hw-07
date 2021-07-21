@@ -1,15 +1,20 @@
 .submit {
 
-&--footer {
+&__button {
+    width: 200px;
     height: 50px;
     background-color: var(--accent-color);
     color: var(--while-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-&--footer:focus,
-&--footer:hover{
+&__button:focus,
+&__button:hover{
     background-color: var(--button-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+&__button:active
+{
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
 &__input {
@@ -30,6 +35,7 @@
     color: var(--while-color);
     
 }
+
 
 &__title {
     
@@ -53,6 +59,7 @@
 &__post:hover {
     background-color: var(--button-hover);
 }
+
 &__icon {
     vertical-align: middle;
     width: 24px;
