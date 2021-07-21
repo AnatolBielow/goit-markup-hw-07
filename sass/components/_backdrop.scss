@@ -25,7 +25,11 @@
     background-color: var(--while-color);
 }
 
-
+.close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .close__icon {
     width: 18px;
     height: 18px;
@@ -34,11 +38,9 @@
 }
 
 [data-modal-close] {
-    display: flex;
     position: absolute;
     top: 8px;
     right: 9px;
-    justify-content: center;
     width: 30px;
     height: 30px;
     background-color:var(--while-color);
