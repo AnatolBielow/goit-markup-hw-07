@@ -559,7 +559,15 @@ section {
     margin-right: 70px;  
 }
 
+<<<<<<< Updated upstream
 .address__link {
+=======
+<<<<<<< HEAD
+.adress__links{
+=======
+.address__link {
+>>>>>>> 0a751eeaa025c291d6abfdef5825af46a125480e
+>>>>>>> Stashed changes
     color: var(--adress-link-color);
     transition: color 250ms var(--timing-function);
 }
@@ -568,14 +576,33 @@ section {
     margin-left: 0;
     margin-right: 93px;
 }
+<<<<<<< Updated upstream
 .socialmedia__title--footer {
+=======
+<<<<<<< HEAD
+.socialmedia__list {
+    display: flex;
+}
+.socialmedia__title {
+=======
+.socialmedia__title--footer {
+>>>>>>> 0a751eeaa025c291d6abfdef5825af46a125480e
+>>>>>>> Stashed changes
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
 }
+<<<<<<< Updated upstream
 .socialmedia__link--footer {
+=======
+<<<<<<< HEAD
+.socialmedia__link{
+=======
+.socialmedia__link--footer {
+>>>>>>> 0a751eeaa025c291d6abfdef5825af46a125480e
+>>>>>>> Stashed changes
     color: inherit;
     background-color: var(--footer-icon);
     transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);

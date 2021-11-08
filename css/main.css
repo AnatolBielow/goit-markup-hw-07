@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+@import "../sass/utils/variables.scss";
+
+=======
+>>>>>>> Stashed changes
 :root {
   --accent-color: #2196F3;
   --while-color: #FFFFFF;
@@ -23,12 +30,21 @@
 }
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+<<<<<<< Updated upstream
 /*
 Document
 ========
 */
 /**
 Use a better box model (opinionated).
+=======
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+>>>>>>> Stashed changes
 */
 *,
 ::before,
@@ -37,10 +53,17 @@ Use a better box model (opinionated).
           box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 /**
 1. Correct the line height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size (opinionated).
+=======
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size (opinionated).
+>>>>>>> Stashed changes
 */
 html {
   line-height: 1.15;
@@ -54,6 +77,7 @@ html {
   /* 3 */
 }
 
+<<<<<<< Updated upstream
 /*
 Sections
 ========
@@ -61,6 +85,15 @@ Sections
 /**
 1. Remove the margin in all browsers.
 2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+=======
+/*
+Sections
+========
+*/
+/**
+1. Remove the margin in all browsers.
+2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+>>>>>>> Stashed changes
 */
 body {
   margin: 0;
@@ -69,6 +102,7 @@ body {
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /*
 Grouping content
 ================
@@ -76,6 +110,15 @@ Grouping content
 /**
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+=======
+/*
+Grouping content
+================
+*/
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+>>>>>>> Stashed changes
 */
 hr {
   height: 0;
@@ -84,49 +127,83 @@ hr {
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /*
 Text-level semantics
 ====================
 */
 /**
 Add the correct text decoration in Chrome, Edge, and Safari.
+=======
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+>>>>>>> Stashed changes
 */
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
 
+<<<<<<< Updated upstream
 /**
 Add the correct font weight in Edge and Safari.
+=======
+/**
+Add the correct font weight in Edge and Safari.
+>>>>>>> Stashed changes
 */
 b,
 strong {
   font-weight: bolder;
 }
 
+<<<<<<< Updated upstream
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
+=======
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+>>>>>>> Stashed changes
 */
 code,
 kbd,
 samp,
 pre {
+<<<<<<< Updated upstream
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+=======
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+>>>>>>> Stashed changes
   /* 1 */
   font-size: 1em;
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /**
 Add the correct font size in all browsers.
+=======
+/**
+Add the correct font size in all browsers.
+>>>>>>> Stashed changes
 */
 small {
   font-size: 80%;
 }
 
+<<<<<<< Updated upstream
 /**
 Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+=======
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+>>>>>>> Stashed changes
 */
 sub,
 sup {
@@ -144,6 +221,7 @@ sup {
   top: -0.5em;
 }
 
+<<<<<<< Updated upstream
 /*
 Tabular data
 ============
@@ -151,6 +229,15 @@ Tabular data
 /**
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+=======
+/*
+Tabular data
+============
+*/
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+>>>>>>> Stashed changes
 */
 table {
   text-indent: 0;
@@ -159,6 +246,7 @@ table {
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /*
 Forms
 =====
@@ -166,6 +254,15 @@ Forms
 /**
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.
+=======
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+>>>>>>> Stashed changes
 */
 button,
 input,
@@ -182,14 +279,20 @@ textarea {
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /**
 Remove the inheritance of text transform in Edge and Firefox.
+=======
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+>>>>>>> Stashed changes
 */
 button,
 select {
   text-transform: none;
 }
 
+<<<<<<< Updated upstream
 /**
 Correct the inability to style clickable types in iOS and Safari.
 */
@@ -202,70 +305,129 @@ button,
 
 /**
 Remove the inner border and padding in Firefox.
+=======
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+>>>>>>> Stashed changes
 */
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 /**
 Restore the focus styles unset by the previous rule.
+=======
+/**
+Restore the focus styles unset by the previous rule.
+>>>>>>> Stashed changes
 */
 :-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
+<<<<<<< Updated upstream
 /**
 Remove the additional ':invalid' styles in Firefox.
 See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+=======
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+>>>>>>> Stashed changes
 */
 :-moz-ui-invalid {
   box-shadow: none;
 }
 
+<<<<<<< Updated upstream
 /**
 Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+=======
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+>>>>>>> Stashed changes
 */
 legend {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 /**
 Add the correct vertical alignment in Chrome and Firefox.
+=======
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+>>>>>>> Stashed changes
 */
 progress {
   vertical-align: baseline;
 }
 
+<<<<<<< Updated upstream
 /**
 Correct the cursor style of increment and decrement buttons in Safari.
+=======
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+>>>>>>> Stashed changes
 */
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
 }
 
+<<<<<<< Updated upstream
 /**
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
 [type=search] {
+=======
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type='search'] {
+>>>>>>> Stashed changes
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /**
 Remove the inner padding in Chrome and Safari on macOS.
+=======
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+>>>>>>> Stashed changes
 */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+<<<<<<< Updated upstream
 /**
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to 'inherit' in Safari.
+=======
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+>>>>>>> Stashed changes
 */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -274,12 +436,21 @@ Remove the inner padding in Chrome and Safari on macOS.
   /* 2 */
 }
 
+<<<<<<< Updated upstream
 /*
 Interactive
 ===========
 */
 /*
 Add the correct display in Chrome and Safari.
+=======
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+>>>>>>> Stashed changes
 */
 summary {
   display: list-item;
@@ -361,14 +532,26 @@ img {
   fill: currentColor;
   margin: auto;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .socialmedia__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
 .socialmedia__list :not(:last-child) {
   margin-right: 10px;
 }
+=======
+
+.socialmedia__list :not(:last-child) {
+  margin-right: 10px;
+}
+
+>>>>>>> Stashed changes
 .socialmedia__link {
   display: block;
   width: 44px;
@@ -384,12 +567,17 @@ img {
   -webkit-transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
   transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .socialmedia__link:focus, .socialmedia__link:hover {
   background: var(--accent-color);
   color: var(--while-color);
 }
 
 .header {
+<<<<<<< Updated upstream
   background-color: var(--while-color);
   color: var(--first-color);
   font-weight: 500;
@@ -397,11 +585,21 @@ img {
   border-bottom: solid 1px var(--border-color);
 }
 .header__container {
+=======
+>>>>>>> Stashed changes
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+<<<<<<< Updated upstream
+=======
+  background-color: var(--while-color);
+  color: var(--first-color);
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: solid 1px var(--border-color);
+>>>>>>> Stashed changes
 }
 
 .menu {
@@ -410,14 +608,26 @@ img {
   display: flex;
   margin-right: auto;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
 .menu__list :not(:last-child) {
   margin-right: 50px;
 }
+=======
+
+.menu__list :not(:last-child) {
+  margin-right: 50px;
+}
+
+>>>>>>> Stashed changes
 .menu__link {
   position: relative;
   padding: 32px 0;
@@ -427,8 +637,14 @@ img {
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
 .menu__link::after {
   content: "";
+=======
+
+.menu__link::after {
+  content: '';
+>>>>>>> Stashed changes
   position: absolute;
   width: 100%;
   height: 4px;
@@ -440,10 +656,20 @@ img {
   -webkit-transition: opacity 250ms var(--timing-function);
   transition: opacity 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
 .menu__link:hover, .menu__link:focus, .menu__link--active {
   color: var(--accent-color);
 }
 .menu__link:hover::after, .menu__link:focus::after, .menu__link--active::after {
+=======
+
+.menu__link:hover, .menu__link:focus {
+  color: var(--accent-color);
+}
+
+.menu__link:hover::after, .menu__link:focus::after,
+.menu .active::after {
+>>>>>>> Stashed changes
   opacity: 1;
 }
 
@@ -452,9 +678,17 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
 .contacts__list :not(:last-child) {
   margin-right: 30px;
 }
+=======
+
+.contacts__list :not(:last-child) {
+  margin-right: 30px;
+}
+
+>>>>>>> Stashed changes
 .contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,11 +698,19 @@ img {
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .contacts__icon {
   display: block;
   margin: auto 10px auto 0;
   fill: currentColor;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
@@ -499,11 +741,19 @@ img {
   font-size: 36px;
   font-weight: 700;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .hero__content {
   width: 660px;
   color: var(--while-color);
   margin: 0 auto;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .hero__title {
   font-size: 44px;
   font-weight: 900;
@@ -514,12 +764,20 @@ img {
 }
 
 .button {
+<<<<<<< Updated upstream
   width: 200px;
   height: 50px;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
+=======
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  padding: 6px 22px;
+  letter-spacing: 0.03em;
+>>>>>>> Stashed changes
   color: var(--first-color);
   border: 0;
   border-radius: 4px;
@@ -529,10 +787,20 @@ img {
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function), -webkit-box-shadow 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
 .button__sign-in {
   background-color: var(--accent-color);
   color: var(--while-color);
 }
+=======
+
+.button__sign-in {
+  padding: 10px 32px;
+  background-color: var(--accent-color);
+  color: var(--while-color);
+}
+
+>>>>>>> Stashed changes
 .button__sign-in:hover, .button__sign-in:focus {
   background-color: var(--button-hover);
 }
@@ -543,18 +811,34 @@ img {
   line-height: 1.714;
   color: var(--second-color);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .features__title {
   color: transparent;
   font-size: 0;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .features__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
 .features__item:not(:last-child) {
   margin-right: 30px;
 }
+=======
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+>>>>>>> Stashed changes
 .features__icon-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -567,11 +851,19 @@ img {
   background-color: var(--backgroung-team-color);
   margin-bottom: 30px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .features__icon {
   margin: auto;
   width: 70px;
   height: 70px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .features__name {
   font-size: 14px;
   font-weight: bold;
@@ -585,18 +877,34 @@ img {
   letter-spacing: 0.03em;
   padding-top: 0;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .studio__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .studio__item {
   position: relative;
   width: 370px;
 }
+<<<<<<< Updated upstream
 .studio__list :not(:last-child) {
   margin-right: 30px;
 }
+=======
+
+.studio__list :not(:last-child) {
+  margin-right: 30px;
+}
+
+>>>>>>> Stashed changes
 .studio__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -610,6 +918,10 @@ img {
   bottom: 0;
   background: rgba(47, 48, 58, 0.8);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .studio__name {
   margin: auto;
   text-transform: uppercase;
@@ -617,6 +929,10 @@ img {
   font-weight: 700;
   color: var(--while-color);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .studio__title {
   color: var(--first-color);
   font-size: 36px;
@@ -631,11 +947,19 @@ img {
   background-color: var(--backgroung-team-color);
   text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .team__title {
   color: var(--first-color);
   font-size: 36px;
@@ -643,12 +967,17 @@ img {
   margin-bottom: 50px;
   text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .team__item {
   background: var(--while-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+<<<<<<< Updated upstream
 .team__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -661,12 +990,30 @@ img {
 .team__name {
   color: var(--first-color);
   font-size: 16px;
+=======
+
+.team__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team__item-container {
+  padding: 30px 32px;
+}
+
+.team__position {
+  margin-bottom: 15px;
+}
+
+.team__name {
+  color: var(--first-color);
+>>>>>>> Stashed changes
   font-weight: 500;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .clients {
+<<<<<<< Updated upstream
   color: var(--first-color);
   /*----------Company Logo----- */
 }
@@ -678,14 +1025,35 @@ img {
   text-align: center;
   color: var(--first-color);
 }
+=======
+  /*----------Company Logo----- */
+}
+
+.clients__title {
+  color: var(--first-color);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+>>>>>>> Stashed changes
 .clients__list {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
+<<<<<<< Updated upstream
 .clients__list :not(:last-child) {
   margin-right: 30px;
 }
+=======
+
+.clients__list :not(:last-child) {
+  margin-right: 30px;
+}
+
+>>>>>>> Stashed changes
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -695,39 +1063,75 @@ img {
           justify-content: center;
   width: 170px;
   height: 92px;
+<<<<<<< Updated upstream
+=======
+  color: var(--icon-color);
+>>>>>>> Stashed changes
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   -webkit-transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon {
   fill: currentColor;
   margin: auto;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group1 {
   width: 41px;
   height: 46.7px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group2 {
   width: 40px;
   height: 52px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group3 {
   width: 43.46px;
   height: 41.18px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group4 {
   width: 84.44px;
   height: 40.62px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group5 {
   width: 62.54px;
   height: 45.43px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .clients__icon--group6 {
   width: 93.79px;
   height: 43.93px;
@@ -742,6 +1146,10 @@ img {
   line-height: 1.714;
   padding: 60px 0;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -757,7 +1165,11 @@ img {
 
 .socialmedia--footer {
   margin-left: 0;
+<<<<<<< Updated upstream
   margin-right: auto;
+=======
+  margin-right: 93px;
+>>>>>>> Stashed changes
 }
 
 .socialmedia__title--footer {
@@ -788,35 +1200,60 @@ img {
 .address {
   font-style: normal;
 }
+<<<<<<< Updated upstream
 .address__item {
   margin-bottom: 9px;
 }
+=======
+
+.address__item {
+  margin-bottom: 9px;
+}
+
+>>>>>>> Stashed changes
 .address__link {
   color: var(--adress-link-color);
   -webkit-transition: color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
+<<<<<<< Updated upstream
 .submit__button {
   width: 200px;
+=======
+.submit--footer {
+>>>>>>> Stashed changes
   height: 50px;
   background-color: var(--accent-color);
   color: var(--while-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+<<<<<<< Updated upstream
 .submit__button:focus, .submit__button:hover {
+=======
+
+.submit--footer:focus, .submit--footer:hover {
+>>>>>>> Stashed changes
   background-color: var(--button-hover);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+<<<<<<< Updated upstream
 .submit__button:active {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
+=======
+
+>>>>>>> Stashed changes
 .submit__input {
   width: 370px;
   height: 50px;
@@ -829,15 +1266,27 @@ img {
   vertical-align: middle;
   margin-right: 12px;
 }
+<<<<<<< Updated upstream
 .submit__input:focus, .submit__input:hover {
   color: var(--while-color);
 }
+=======
+
+.submit__input:focus, .submit__input:hover {
+  color: var(--while-color);
+}
+
+>>>>>>> Stashed changes
 .submit__title {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .submit__post {
   position: relative;
   vertical-align: middle;
@@ -848,9 +1297,17 @@ img {
   color: var(--while-color);
   fill: var(--while-color);
 }
+<<<<<<< Updated upstream
 .submit__post:focus, .submit__post:hover {
   background-color: var(--button-hover);
 }
+=======
+
+.submit__post:focus, .submit__post:hover {
+  background-color: var(--button-hover);
+}
+
+>>>>>>> Stashed changes
 .submit__icon {
   vertical-align: middle;
   width: 24px;
@@ -888,6 +1345,7 @@ img {
   background-color: var(--while-color);
 }
 
+<<<<<<< Updated upstream
 .close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -900,6 +1358,8 @@ img {
           align-items: center;
 }
 
+=======
+>>>>>>> Stashed changes
 .close__icon {
   width: 18px;
   height: 18px;
@@ -912,10 +1372,23 @@ img {
   position: absolute;
   top: 8px;
   right: 9px;
+<<<<<<< Updated upstream
   width: 30px;
   height: 30px;
   background-color: var(--while-color);
   color: var(--logo-header-color);
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--while-color);
+  color: var(--black-color);
+>>>>>>> Stashed changes
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   -webkit-transition: color 250ms var(--timing-function);
@@ -927,6 +1400,7 @@ img {
   color: var(--accent-color);
   cursor: pointer;
 }
+<<<<<<< Updated upstream
 
 .form__tittle {
   font-size: 20px;
@@ -1164,3 +1638,7 @@ img {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }/*# sourceMappingURL=main.css.map */
+=======
+/*# sourceMappingURL=main.css.map */
+>>>>>>> 0a751eeaa025c291d6abfdef5825af46a125480e
+>>>>>>> Stashed changes

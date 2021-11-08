@@ -25,11 +25,15 @@
     background-color: var(--while-color);
 }
 
+<<<<<<< Updated upstream
 .close {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+=======
+
+>>>>>>> Stashed changes
 .close__icon {
     width: 18px;
     height: 18px;
@@ -41,10 +45,19 @@
     position: absolute;
     top: 8px;
     right: 9px;
+<<<<<<< Updated upstream
     width: 30px;
     height: 30px;
     background-color:var(--while-color);
     color: var(--logo-header-color);
+=======
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color:var(--while-color);
+    color: var(--black-color);
+>>>>>>> Stashed changes
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     transition: color 250ms var(--timing-function);

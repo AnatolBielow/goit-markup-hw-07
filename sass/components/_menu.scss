@@ -34,14 +34,22 @@
 }
 
 &__link:hover,
+<<<<<<< Updated upstream
 &__link:focus,
 &__link--active {
+=======
+&__link:focus {
+>>>>>>> Stashed changes
     color: var(--accent-color);
 }
 
 &__link:hover::after,
 &__link:focus::after,
+<<<<<<< Updated upstream
 &__link--active::after {
+=======
+.active::after {
+>>>>>>> Stashed changes
     opacity: 1;
 }
 }
